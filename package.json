@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-katex": "^2.0.2",
     "spectacle-scripts": "2.3.0"
   },
   "scripts": {
@@ -21,5 +22,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {}
 }

@@ -3,35 +3,19 @@ import React from 'react';
 
 // Import Spectacle Core tags
 import {
-    BlockQuote,
-    Cite,
-    Deck,
-    Heading,
-    ListItem,
-    List,
-    Quote,
-    Slide,
-    Text,
-    Anim,
-    Appear,
-    CodePane,
-    ComponentPlayground,
-    Fill,
-    Fit,
-    GoToAction,
-    Image,
-    Layout,
-    Link,
-    Table,
-    TableBody,
-    TableHeader,
-    TableHeaderItem,
-    TableItem,
-    TableRow,
+    Deck
 } from 'spectacle';
 
 // Import Solvro Theme from theme.js
 import { theme } from './theme';
+
+// Slides import
+
+import {
+    IframeSlide,
+    YoutubeSlide,
+    MathSlide
+} from "./slides";
 
 // Require CSS
 require('normalize.css');
@@ -40,25 +24,15 @@ export default class Presentation extends React.Component {
     render() {
         return (
             <Deck
-                transition={['zoom', 'slide']}
+                transition={['fade']}
                 transitionDuration={500}
                 theme={theme}
+                padding={100}
             >
-                {Object.values(slides)}
+                {IframeSlide}
+                {YoutubeSlide}
+                {MathSlide}
             </Deck>
         );
     }
 }
-
-const slides = {
-    1:
-        <Slide>
-            <Text>
-                Cokolwiek
-            </Text>
-        </Slide>,
-    SlideWithMath:
-        <Slide>
-
-        </Slide>,
-};
