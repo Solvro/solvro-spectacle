@@ -1,0 +1,12 @@
+function poprawna_podphasla(inf) {
+var OK = 1;
+var NO = 0;
+var dobryEmail=/^[^@]+@([a-z0-9\\-]+\\.)+[a-z]{2,4}$/i;
+
+if ((dobryEmail.test(document.podpHasla.email.value)) && (document.podpHasla.login.value.length>5)){
+    document.podpHasla.submit();
+    }
+else {
+    alert (inf);
+    }
+}

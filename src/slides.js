@@ -1,14 +1,41 @@
 import React from 'react';
-import {
-    Slide,
-    Text,
-    Layout,
-    Fit
-} from 'spectacle';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 import { LineChart, Line, CartesianGrid, XAxis, Tooltip, YAxis } from 'recharts';
 import CodeSlide from 'spectacle-code-slide';
+import SolvroTalksLogo from './img/solvro-talks-prototype.svg';
+
+import {
+    Slide,
+    Layout,
+    Fit,
+    Image,
+    CodePane
+} from 'spectacle';
+
+import {
+    Text,
+    Title,
+    Heading,
+    List,
+    ListItem
+} from './solvro-light-components';
+
+export const TitleSlide = (
+  <Slide
+    bgColor={"white"}
+  >
+      <Image
+        src={SolvroTalksLogo}
+        width={900}
+      />
+      <Title
+        margin={50}
+      >
+          Tytuł prezentacji
+      </Title>
+  </Slide>
+);
 
 export const IframeSlide = (
     <Slide>
@@ -48,7 +75,7 @@ export const YoutubeSlide = (
             <Fit>
                 <iframe
                     title={"youtube"}
-                    width="640" height="360" src="https://www.youtube.com/embed/dNJdJIwCF_Y" frameBorder="0"
+                    width="800" height="600" src="https://www.youtube.com/embed/dNJdJIwCF_Y" frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen>
                 </iframe>
@@ -127,32 +154,19 @@ export const GraphSlide = (
     </Slide>
 );
 
-const example_code = `function poprawna_podphasla(inf) {
-var OK = 1;
-var NO = 0; 
-var dobryEmail=/^[^@]+@([a-z0-9\\-]+\\.)+[a-z]{2,4}$/i;
-
-if ((dobryEmail.test(document.podpHasla.email.value)) && (document.podpHasla.login.value.length>5)){
-    document.podpHasla.submit();
-    }
-else {
-    alert (inf);
-    }
-}`;
-
 export const PKPSlide = (
     <CodeSlide
-        header={"So"}
-        transition={[]}
-        lang="js"
-        code={example_code}
+        bgColor={"#4B9A9B"}
+        transition={['fade']}
+        lang="elixir"
+        code={require('./assets/code.txt')}
         ranges={[
-            { loc: [0, 30], title: "Walking through some code" },
-            { loc: [0, 1], title: "The Beginning" },
-            { loc: [1, 2] },
-            { loc: [1, 2], note: "Heres a note!" },
-            { loc: [2, 3] },
-            { loc: [8, 10] },
+        { loc: [0, 30], title: "Walking through some code" },
+        { loc: [0, 1], title: "The Beginning" },
+        { loc: [1, 2] },
+        { loc: [1, 2], note: "Heres a note!" },
+        { loc: [2, 3] },
+        { loc: [8, 10] },
         ]}
     />
 );

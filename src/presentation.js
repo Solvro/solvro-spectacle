@@ -7,7 +7,7 @@ import {
 } from 'spectacle';
 
 // Import Solvro Theme from theme.js
-import {theme} from './theme';
+import {theme} from './solvro-light-components';
 
 // Slides import
 
@@ -16,10 +16,12 @@ import {
     YoutubeSlide,
     MathSlide,
     GraphSlide,
-    PKPSlide
+    PKPSlide,
+    TitleSlide
 } from "./slides";
 
-import SolvroCorner from 'svg-react-loader?name=SolvroCorner./img/solvro-corner.svg';
+// SVG
+import SolvroCorner from './img/solvro-corner.svg';
 
 // Require CSS
 require('normalize.css');
@@ -28,15 +30,15 @@ export default class Presentation extends React.Component {
     render() {
         return (
             <>
-                <div style={{position: "fixed", zIndex: 0}}>
-                    <SolvroCorner style={{
+                <div style={{position: "fixed", zIndex: 1}}>
+                    <img src={SolvroCorner} style={{
                         position: "fixed",
                         right: 0,
                         bottom: 0,
                         transform: "rotate(180deg)"
                     }}
                     />
-                    <SolvroCorner style={{
+                    <img src={SolvroCorner} style={{
                         position: "fixed",
                         left: 0,
                         top: 0
@@ -47,7 +49,9 @@ export default class Presentation extends React.Component {
                     transitionDuration={500}
                     theme={theme}
                     padding={200}
+                    color={"white"}
                 >
+                    {TitleSlide}
                     {IframeSlide}
                     {YoutubeSlide}
                     {MathSlide}

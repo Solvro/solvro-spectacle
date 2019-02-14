@@ -6,6 +6,7 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-katex": "^2.0.2",
+    "react-svg": "^7.2.6",
     "recharts": "^1.4.3",
     "spectacle-code-slide": "^0.5.2",
     "spectacle-scripts": "2.3.0",
