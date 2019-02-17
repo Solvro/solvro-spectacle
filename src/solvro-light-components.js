@@ -3,10 +3,12 @@ import {
     Text,
     Heading,
     List,
-    ListItem
+    ListItem,
+    Slide
 } from 'spectacle';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
+import React from "react";
 
 const colors = {
     tertiary: "#83B4FC",
@@ -30,12 +32,15 @@ const SolvroText = styled(Text)`
 `;
 
 const SolvroHeading = styled(Heading)`
-    font-size: 1.8em;
+    font-size: 1.2em;
+    font-weight: bold;
     color: ${colors.secondary};
 `;
 
 const SolvroTitleText = styled(Text)`
-    font-size: 2em;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 0.5em;
     color: ${colors.secondary};
 `;
 

@@ -6,11 +6,11 @@ import CodeSlide from 'spectacle-code-slide';
 import SolvroTalksLogo from './img/solvro-talks-prototype.svg';
 
 import {
-    Slide,
     Layout,
     Fit,
     Image,
-    CodePane
+    CodePane,
+    Slide
 } from 'spectacle';
 
 import {
@@ -23,7 +23,7 @@ import {
 
 export const TitleSlide = (
   <Slide
-    bgColor={"white"}
+      progressColor="#83B4FC"
   >
       <Image
         src={SolvroTalksLogo}
@@ -38,13 +38,14 @@ export const TitleSlide = (
 );
 
 export const IframeSlide = (
-    <Slide>
-        <Text
-            textSize={20}
+    <Slide
+        progressColor="#83B4FC"
+    >
+        <Title
             margin={20}
         >
             Embeddowanie nigdy nie było prostsze
-        </Text>
+        </Title>
         <Layout
             style={{justifyContent: 'center'}}
         >
@@ -53,7 +54,7 @@ export const IframeSlide = (
                     title={"code"}
                     src={"https://stackblitz.com/edit/js-3cpgws"}
                     width={"800px"}
-                    height={"600px"}
+                    height={"500px"}
                 >
                 </iframe>
             </Fit>
@@ -62,20 +63,21 @@ export const IframeSlide = (
 );
 
 export const YoutubeSlide = (
-    <Slide>
-        <Text
-            textSize={20}
+    <Slide
+        progressColor="#83B4FC"
+    >
+        <Title
             margin={20}
         >
             Można też pokazać film
-        </Text>
+        </Title>
         <Layout
             style={{justifyContent: 'center'}}
         >
             <Fit>
                 <iframe
                     title={"youtube"}
-                    width="800" height="600" src="https://www.youtube.com/embed/dNJdJIwCF_Y" frameBorder="0"
+                    width="800" height="500" src="https://www.youtube.com/embed/dNJdJIwCF_Y" frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen>
                 </iframe>
@@ -85,7 +87,15 @@ export const YoutubeSlide = (
 );
 
 export const MathSlide = (
-    <Slide>
+    <Slide
+        progressColor="#83B4FC"
+    >
+        <Title>
+            Tytuł
+        </Title>
+        <Heading>
+            Nagłówek
+        </Heading>
         <Text
             textSize={24}
             margin={20}
@@ -124,13 +134,14 @@ const data = [
     {name: '2019', uv: 101, pv: 2400, amt: 2400}
 ];
 export const GraphSlide = (
-    <Slide>
-        <Text
-            textSize={24}
+    <Slide
+        progressColor="#83B4FC"
+    >
+        <Title
             margin={20}
         >
             Interaktywne wykresy
-        </Text>
+        </Title>
         <Layout
             style={{justifyContent: 'space-around'}}
         >
@@ -156,17 +167,19 @@ export const GraphSlide = (
 
 export const PKPSlide = (
     <CodeSlide
-        bgColor={"#4B9A9B"}
+        progressColor="#83B4FC"
+        bgColor={"white"}
         transition={['fade']}
-        lang="elixir"
+        lang="js"
         code={require('./assets/code.txt')}
+        showLineNumbers={false}
+        textSize={24}
         ranges={[
-        { loc: [0, 30], title: "Walking through some code" },
-        { loc: [0, 1], title: "The Beginning" },
-        { loc: [1, 2] },
-        { loc: [1, 2], note: "Heres a note!" },
-        { loc: [2, 3] },
-        { loc: [8, 10] },
+        { loc: [0, 12], title: "PKP kodzik" },
+        { loc: [0, 4], title: "Przygotowanko" },
+        { loc: [3, 4], note: "Lubimy regexy"},
+        { loc: [5, 8], note: "Jeżeli tak" },
+        { loc: [8, 12], note: "Jeżeli nie" },
         ]}
     />
 );

@@ -3,7 +3,8 @@ import React from 'react';
 
 // Import Spectacle Core tags
 import {
-    Deck
+    Deck,
+    Slide
 } from 'spectacle';
 
 // Import Solvro Theme from theme.js
@@ -35,21 +36,25 @@ export default class Presentation extends React.Component {
                         position: "fixed",
                         right: 0,
                         bottom: 0,
-                        transform: "rotate(180deg)"
+                        transform: "rotate(180deg)",
+                        width: '6em',
+                        height: '6em'
                     }}
                     />
                     <img src={SolvroCorner} style={{
                         position: "fixed",
                         left: 0,
-                        top: 0
+                        top: 0,
+                        width: '6em',
+                        height: '6em'
                     }}/>
                 </div>
                 <Deck
+                    showFullscreenControl={false}
                     transition={['fade']}
                     transitionDuration={500}
                     theme={theme}
                     padding={200}
-                    color={"white"}
                 >
                     {TitleSlide}
                     {IframeSlide}

@@ -27,5 +27,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {}
+  "devDependencies": {
+    "patch-package": "^6.0.2",
+    "postinstall-prepare": "^1.0.1"
+  }
 }
