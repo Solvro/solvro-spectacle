@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="198.40298mm"
-   height="23.680731mm"
-   viewBox="0 0 198.40298 23.680731"
+   width="177.04741mm"
+   height="22.023617mm"
+   viewBox="0 0 177.04741 22.023617"
    version="1.1"
-   id="svg902"
+   id="svg1731"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="solvro-talks-prototype.svg">
+   sodipodi:docname="Solvro-Talks-Logo.svg">
   <defs
-     id="defs896" />
+     id="defs1725" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-113.63666"
-     inkscape:cy="-132.39185"
+     inkscape:zoom="0.7"
+     inkscape:cx="319.54603"
+     inkscape:cy="-41.461884"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41,7 +41,7 @@
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
-     id="metadata899">
+     id="metadata1728">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -56,111 +56,115 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(13.022919,-90.123925)">
+     transform="translate(277.5118,25.464188)">
     <g
-       transform="translate(185.13392,-138.28492)"
-       id="g1256"
-       inkscape:export-xdpi="96.181717"
-       inkscape:export-ydpi="96.181717">
-      <text
-         id="text1250"
-         y="251.80061"
-         x="-168.09053"
-         style="font-style:normal;font-weight:normal;font-size:25.73019218px;line-height:0.80000001;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0.64325476"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.80000001;font-family:Bebas;-inkscape-font-specification:Bebas;letter-spacing:-0.92402893px;word-spacing:-0.13200416px;fill:#80b3ff;fill-opacity:1;stroke-width:0.64325476"
-           y="251.80061"
-           x="-168.09053"
-           id="tspan1246"
-           sodipodi:role="line">Solvro </tspan><tspan
-           id="tspan1248"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.80000001;font-family:Bebas;-inkscape-font-specification:Bebas;letter-spacing:-0.92402893px;word-spacing:-0.13200416px;fill:#80b3ff;fill-opacity:1;stroke-width:0.64325476"
-           y="272.38477"
-           x="-168.09053"
-           sodipodi:role="line" /></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:32.26810074px;line-height:0.80000001;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6583c8;fill-opacity:1;stroke:none;stroke-width:0.80670255"
-         x="-89.850655"
-         y="251.6012"
-         id="text1254"><tspan
-           sodipodi:role="line"
-           x="-89.850655"
-           y="251.6012"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.73019218px;line-height:0.80000001;font-family:Bebas;-inkscape-font-specification:Bebas;letter-spacing:-1.15881991px;word-spacing:-0.16554573px;fill:#6583c8;fill-opacity:1;stroke-width:0.80670255"
-           id="tspan1252">TALKS</tspan></text>
-    </g>
-    <g
-       id="g1367"
-       transform="translate(177.39815,-252.42237)"
-       inkscape:export-xdpi="96.181717"
-       inkscape:export-ydpi="96.181717">
+       id="g1842"
+       transform="translate(-335.47113,-185.45753)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
-         transform="translate(0.52913023,0.74264441)"
-         id="g1296">
-        <path
-           style="fill:#6583c8;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m -4.1860081,348.82309 a 6.8178625,6.8178625 0 0 1 9.6418987,0 6.8178625,6.8178625 0 0 1 0,9.6419 6.8178625,6.8178625 0 0 1 -9.6418987,0 l 4.82094935,-4.82095 z"
-           id="path1276"
-           inkscape:connector-curvature="0" />
-        <circle
-           transform="scale(-1,1)"
-           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02552141;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="circle1278"
-           cx="-0.27030998"
-           cy="350.65439"
-           r="0.61980557" />
+         transform="translate(2.3216867,236.99309)"
+         id="g1033-1">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.21580696px;line-height:0.80000001;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';letter-spacing:0px;word-spacing:0px;fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0.78039515"
+           x="85.846611"
+           y="-55.390133"
+           id="text1250-38-6"><tspan
+             sodipodi:role="line"
+             id="tspan1246-0-6"
+             x="85.846611"
+             y="-55.390133"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.80000001;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';letter-spacing:-1.12102973px;word-spacing:-0.16014713px;fill:#80b3ff;fill-opacity:1;stroke-width:0.78039515"><tspan
+   id="tspan899-2"
+   style="font-size:30.43607712px;stroke-width:0.78039515">Solvro</tspan> </tspan><tspan
+             sodipodi:role="line"
+             x="85.846611"
+             y="-30.417486"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.80000001;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';letter-spacing:-1.12102973px;word-spacing:-0.16014713px;fill:#80b3ff;fill-opacity:1;stroke-width:0.78039515"
+             id="tspan1248-4-1" /></text>
+        <text
+           id="text1254-0-9"
+           y="-55.280491"
+           x="151.99336"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.16972733px;line-height:0.80000001;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';letter-spacing:0px;word-spacing:0px;fill:#6583c8;fill-opacity:1;stroke:none;stroke-width:0.95424324"
+           xml:space="preserve"><tspan
+             id="tspan1252-9-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.43607712px;line-height:0.80000001;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';letter-spacing:-1.37076068px;word-spacing:-0.19582298px;fill:#6583c8;fill-opacity:1;stroke-width:0.95424324"
+             y="-55.280491"
+             x="151.99336"
+             sodipodi:role="line">TALKS</tspan></text>
       </g>
-      <circle
-         style="fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle1298"
-         cx="-6.8584046"
-         cy="354.38669"
-         r="1.5119048" />
-      <circle
-         r="1.5119048"
-         cy="354.38669"
-         cx="-19.460281"
-         id="circle1300"
-         style="fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <circle
-         r="1.5119048"
-         cy="354.38669"
-         cx="-13.159347"
-         id="circle1302"
-         style="fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="translate(-0.58871029,236.99309)"
+         id="g1010-4">
+        <g
+           id="g1296-6-8"
+           transform="matrix(0.91903383,0,0,0.91903383,228.74608,-391.34583)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path1276-2-0"
+             d="m -4.1860081,348.82309 a 6.8178625,6.8178625 0 0 1 9.6418987,0 6.8178625,6.8178625 0 0 1 0,9.6419 6.8178625,6.8178625 0 0 1 -9.6418987,0 l 4.82094935,-4.82095 z"
+             style="fill:#6583c8;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <circle
+             r="0.61980557"
+             cy="350.65439"
+             cx="-0.27030998"
+             id="circle1278-4-8"
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02552141;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             transform="scale(-1,1)" />
+        </g>
+        <circle
+           r="1.3894917"
+           cy="-66.334991"
+           cx="221.95668"
+           id="circle1298-7-1"
+           style="fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           style="fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle1300-9-0"
+           cx="210.37514"
+           cy="-66.334991"
+           r="1.3894917" />
+        <circle
+           style="fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle1302-3-2"
+           cx="216.16591"
+           cy="-66.334991"
+           r="1.3894917" />
+      </g>
       <path
          style="fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m -178.78227,349.56573 a 6.8178625,6.8178625 0 0 0 -9.6419,0 6.8178625,6.8178625 0 0 0 0,9.6419 6.8178625,6.8178625 0 0 0 9.6419,0 l -4.82095,-4.82095 z"
-         id="path1306"
+         d="m 68.655786,166.22748 a 6.2658464,6.2658464 0 0 0 -8.861236,0 6.2658464,6.2658464 0 0 0 0,8.86123 6.2658464,6.2658464 0 0 0 8.861236,0 l -4.43062,-4.43062 z"
+         id="path1306-9-2"
          inkscape:connector-curvature="0" />
       <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02552141;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle1308"
-         cx="-183.23859"
-         cy="351.39703"
-         r="0.61980557" />
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02345504;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1308-2-9"
+         cx="64.56028"
+         cy="167.91051"
+         r="0.56962228" />
       <circle
          transform="scale(-1,1)"
-         r="1.5119048"
-         cy="354.38669"
-         cx="175.58073"
-         id="circle1312"
+         r="1.3894917"
+         cy="170.65811"
+         cx="-71.598099"
+         id="circle1312-8-7"
          style="fill:#4d6499;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
          transform="scale(-1,1)"
          style="fill:#4d6499;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle1314"
-         cx="162.97887"
-         cy="354.38669"
-         r="1.5119048" />
+         id="circle1314-3-5"
+         cx="-83.179634"
+         cy="170.65811"
+         r="1.3894917" />
       <circle
          transform="scale(-1,1)"
          style="fill:#4d6499;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle1316"
-         cx="169.2798"
-         cy="354.38669"
-         r="1.5119048" />
+         id="circle1316-0-6"
+         cx="-77.38887"
+         cy="170.65811"
+         r="1.3894917" />
     </g>
   </g>
 </svg>
