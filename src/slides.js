@@ -193,7 +193,7 @@ export const PKPSlide = (
 export const TechnologiesSlide = (
     <Slide>
         <Title>
-            Technologie
+            Używane technologie
         </Title>
         <Layout
             style={{
