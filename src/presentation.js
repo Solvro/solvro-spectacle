@@ -18,7 +18,7 @@ import {
     MathSlide,
     GraphSlide,
     PKPSlide,
-    TitleSlide
+    TitleSlide, TechnologiesSlide
 } from "./slides";
 
 // SVG
@@ -57,6 +57,7 @@ export default class Presentation extends React.Component {
                     padding={200}
                 >
                     {TitleSlide}
+                    {TechnologiesSlide}
                     {IframeSlide}
                     {YoutubeSlide}
                     {MathSlide}
