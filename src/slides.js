@@ -210,15 +210,15 @@ export const TechnologiesSlide = (
                 width={100}
             />
             <Image
+                src={NodeLogo}
+                width={100}
+            />
+            <Image
                 src={ReactLogo}
                 width={100}
             />
             <Image
                 src={AngularLogo}
-                width={100}
-            />
-            <Image
-                src={NodeLogo}
                 width={100}
             />
         </Layout>
