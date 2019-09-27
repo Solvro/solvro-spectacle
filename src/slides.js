@@ -4,10 +4,21 @@ import { InlineMath, BlockMath } from 'react-katex';
 import { LineChart, Line, CartesianGrid, XAxis, Tooltip, YAxis } from 'recharts';
 import CodeSlide from 'spectacle-code-slide';
 import SolvroTalksLogo from './img/logo_solvro.svg';
+import JavaScriptLogo from './img/logo_javascript.svg';
+import PythonLogo from './img/logo_python.svg';
+import AngularLogo from './img/logo_angular.svg';
+import ReactLogo from './img/logo_react.svg';
+import NodeLogo from './img/logo_node.svg';
+import DjangoLogo from './img/logo_django.svg';
+import DockerLogo from './img/logo_docker.svg';
+import GitlabLogo from './img/logo_gitlab.svg';
+import ExpoLogo from './img/logo_expo.svg';
+import PostgresLogo from './img/logo_postgres.svg';
 
 import {
     Layout,
     Fit,
+    Fill,
     Image,
     CodePane,
     Slide
@@ -33,7 +44,7 @@ export const TitleSlide = (
             margin={50}
         >
             Koło Naukowe Solvro
-      </Title>
+        </Title>
     </Slide>
 );
 
@@ -182,4 +193,67 @@ export const PKPSlide = (
             { loc: [8, 12], note: "Jeżeli nie" },
         ]}
     />
+);
+
+export const TechnologiesSlide = (
+    <Slide>
+        <Title>
+            Używane technologie
+        </Title>
+        <Layout
+            style={{
+                marginTop: 40,
+                justifyContent: 'center'
+            }}
+        >
+            <Image
+                src={PythonLogo}
+                width={100}
+            />
+            <Image
+                src={JavaScriptLogo}
+                width={100}
+            />
+            <Image
+                src={NodeLogo}
+                width={100}
+            />
+            <Image
+                src={ReactLogo}
+                width={100}
+            />
+            <Image
+                src={AngularLogo}
+                width={100}
+            />
+        </Layout>
+        <Layout
+            style={{
+                marginTop: 40,
+                marginBottom: 80,
+                justifyContent: 'center'
+            }}
+        >
+            <Image
+                src={DjangoLogo}
+                width={100}
+            />
+            <Image
+                src={DockerLogo}
+                width={100}
+            />
+            <Image
+                src={GitlabLogo}
+                width={100}
+            />
+            <Image
+                src={ExpoLogo}
+                width={100}
+            />
+            <Image
+                src={PostgresLogo}
+                width={100}
+            />
+        </Layout>
+    </Slide>
 );
