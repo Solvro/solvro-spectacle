@@ -8,7 +8,7 @@ import {
 } from 'spectacle';
 
 // Import Solvro Theme from theme.js
-import {theme} from './solvro-light-components';
+import { theme } from './solvro-light-components';
 
 // Slides import
 
@@ -18,7 +18,9 @@ import {
     MathSlide,
     GraphSlide,
     PKPSlide,
-    TitleSlide, TechnologiesSlide
+    TechnologiesSlide,
+    TitleSlide,
+    OtherActivitiesSlide
 } from "./slides";
 
 // SVG
@@ -31,7 +33,7 @@ export default class Presentation extends React.Component {
     render() {
         return (
             <>
-                <div style={{position: "fixed", zIndex: 1}}>
+                <div style={{ position: "fixed", zIndex: 1 }}>
                     <img src={SolvroCorner} style={{
                         position: "fixed",
                         right: 0,
@@ -47,7 +49,7 @@ export default class Presentation extends React.Component {
                         top: 0,
                         width: '6em',
                         height: '6em'
-                    }}/>
+                    }} />
                 </div>
                 <Deck
                     showFullscreenControl={false}
@@ -57,13 +59,12 @@ export default class Presentation extends React.Component {
                     padding={200}
                 >
                     {TitleSlide}
-                    {TechnologiesSlide}
-                    {IframeSlide}
-                    {YoutubeSlide}
-                    {MathSlide}
-                    {GraphSlide}
-                    {PKPSlide}
-                </Deck>
+<<<<<<< HEAD
+                {TechnologiesSlide}
+=======
+>>>>>>> 59f46b096f86f75c2ee5606c106c00fd1dd2fdc8
+                {OtherActivitiesSlide}
+            </Deck>
             </>
         );
     }
