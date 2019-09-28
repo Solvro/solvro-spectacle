@@ -201,7 +201,6 @@ export const PKPSlide = (
     />
 );
 
-<<<<<<< HEAD
 export const TechnologiesSlide = (
     <Slide>
         <Title>
@@ -264,8 +263,6 @@ export const TechnologiesSlide = (
         </Layout>
     </Slide>
 );
-=======
->>>>>>> 59f46b096f86f75c2ee5606c106c00fd1dd2fdc8
 
 const NoInternetStoryArray = [SolvroTalksLogo, WilkoszRastrowyImg, HackathonImg];
 export const OtherActivitiesSlide = NoInternetStoryArray.map((img, idx) =>
