@@ -59,12 +59,9 @@ export default class Presentation extends React.Component {
                     padding={200}
                 >
                     {TitleSlide}
-<<<<<<< HEAD
-                {TechnologiesSlide}
-=======
->>>>>>> 59f46b096f86f75c2ee5606c106c00fd1dd2fdc8
-                {OtherActivitiesSlide}
-            </Deck>
+                    {TechnologiesSlide}
+                    {OtherActivitiesSlide}
+                </Deck>
             </>
         );
     }
