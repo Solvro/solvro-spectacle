@@ -3,7 +3,7 @@ import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 import { LineChart, Line, CartesianGrid, XAxis, Tooltip, YAxis } from 'recharts';
 import CodeSlide from 'spectacle-code-slide';
-import SolvroTalksLogo from './img/logo_solvro.svg';
+import SolvroLogo from './img/logo_solvro.svg';
 import JavaScriptLogo from './img/logo_javascript.svg';
 import PythonLogo from './img/logo_python.svg';
 import AngularLogo from './img/logo_angular.svg';
@@ -14,6 +14,12 @@ import DockerLogo from './img/logo_docker.svg';
 import GitlabLogo from './img/logo_gitlab.svg';
 import ExpoLogo from './img/logo_expo.svg';
 import PostgresLogo from './img/logo_postgres.svg';
+import SolvroTalksLogo from './img/solvro_talks_logo.png';
+import WilkoszRastrowyImg from './img/wilkosz_and_rastrowy.png';
+import HackathonImg from './img/hackathon_img.jpg';
+
+import ImageSlide from "./components/ImageSlide";
+
 
 import {
     Layout,
@@ -37,7 +43,7 @@ export const TitleSlide = (
         progressColor="#83B4FC"
     >
         <Image
-            src={SolvroTalksLogo}
+            src={SolvroLogo}
             width={500}
         />
         <Title
@@ -195,6 +201,7 @@ export const PKPSlide = (
     />
 );
 
+<<<<<<< HEAD
 export const TechnologiesSlide = (
     <Slide>
         <Title>
@@ -257,3 +264,16 @@ export const TechnologiesSlide = (
         </Layout>
     </Slide>
 );
+=======
+>>>>>>> 59f46b096f86f75c2ee5606c106c00fd1dd2fdc8
+
+const NoInternetStoryArray = [SolvroTalksLogo, WilkoszRastrowyImg, HackathonImg];
+export const OtherActivitiesSlide = NoInternetStoryArray.map((img, idx) =>
+    <ImageSlide
+        progressColor="#83B4FC"
+        title={"Inna działalność"}
+        image={img}
+        imageStyle={{
+            width: idx === 0 ? "800px" : "60%"
+        }}
+    />);
