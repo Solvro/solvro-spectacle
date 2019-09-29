@@ -22,7 +22,9 @@ import {
     TitleSlide,
     OtherActivitiesSlide,
     SolvroTalkstSlide,
-    SocialMediaSlide
+    SocialMediaSlide,
+    ScanningAppSlide,
+    EbecSlide
 } from "./slides";
 
 // SVG
@@ -62,6 +64,8 @@ export default class Presentation extends React.Component {
                 >
                     {TitleSlide}
                     {TechnologiesSlide}
+                    {EbecSlide}
+                    {ScanningAppSlide}
                     {OtherActivitiesSlide}
                     {SolvroTalkstSlide}
                     {SocialMediaSlide}

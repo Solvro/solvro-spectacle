@@ -1,10 +1,10 @@
-import {Title} from "../solvro-light-components";
+import { Title } from "../solvro-light-components";
 import React from "react";
-import {Slide} from "spectacle";
+import { Slide } from "spectacle";
 
-const JSHistorySlide = ({title, image, imageStyle, background, ...props}) => (
+const JSHistorySlide = ({ title, image, imageStyle, background, ...props }) => (
     <Slide
-        style={{background}}
+        style={{ background }}
         {...props}
     >
         {
@@ -12,7 +12,7 @@ const JSHistorySlide = ({title, image, imageStyle, background, ...props}) => (
             <Title style={{
                 position: 'absolute',
                 transform: 'translate(-50%)',
-                top: 30,
+                top: 50,
                 left: '50%',
                 margin: '0 !important'
             }}>
