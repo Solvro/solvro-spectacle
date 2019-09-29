@@ -17,6 +17,7 @@ import PostgresLogo from './img/logo_postgres.svg';
 import SolvroTalksLogo from './img/solvro_talks_logo.png';
 import WilkoszRastrowyImg from './img/wilkosz_and_rastrowy.png';
 import HackathonImg from './img/hackathon_img.jpg';
+import SolvroFBQR from './img/facebook_qr.svg'
 
 import ImageSlide from "./components/ImageSlide";
 
@@ -274,3 +275,14 @@ export const OtherActivitiesSlide = NoInternetStoryArray.map((img, idx) =>
             width: idx === 0 ? "800px" : "60%"
         }}
     />);
+
+export const SocialMediaSlide = (
+    <Slide>
+        <Title>Dziękujemy za uwagę</Title>
+        <Image
+            src={SolvroFBQR}
+            width={400}
+        />
+        <Text>facebook.com/knsolvro/</Text>
+    </Slide >
+);
