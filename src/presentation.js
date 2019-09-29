@@ -20,7 +20,8 @@ import {
     PKPSlide,
     TechnologiesSlide,
     TitleSlide,
-    OtherActivitiesSlide
+    OtherActivitiesSlide,
+    SolvroTalkstSlide
 } from "./slides";
 
 // SVG
@@ -61,6 +62,7 @@ export default class Presentation extends React.Component {
                     {TitleSlide}
                     {TechnologiesSlide}
                     {OtherActivitiesSlide}
+                    {SolvroTalkstSlide}
                 </Deck>
             </>
         );

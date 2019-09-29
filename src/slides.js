@@ -17,6 +17,7 @@ import PostgresLogo from './img/logo_postgres.svg';
 import SolvroTalksLogo from './img/solvro_talks_logo.png';
 import WilkoszRastrowyImg from './img/wilkosz_and_rastrowy.png';
 import HackathonImg from './img/hackathon_img.jpg';
+import SolvroTalksQR from './img/solvro_talks_qr.png'
 
 import ImageSlide from "./components/ImageSlide";
 
@@ -274,3 +275,23 @@ export const OtherActivitiesSlide = NoInternetStoryArray.map((img, idx) =>
             width: idx === 0 ? "800px" : "60%"
         }}
     />);
+
+export const SolvroTalkstSlide = (
+    <Slide
+        progressColor="#83B4FC"
+    >
+
+        <Title
+            margin={50}
+        >
+            Solvro Talks #4
+        </Title>
+        <Image
+            src={SolvroTalksQR}
+            width={400}
+        />
+        <Text>
+            Ankieta do prelekcji o Pythonie
+        </Text>
+    </Slide>
+);
