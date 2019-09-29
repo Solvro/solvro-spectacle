@@ -19,6 +19,11 @@ import WilkoszRastrowyImg from './img/wilkosz_and_rastrowy.png';
 import HackathonImg from './img/hackathon_img.jpg';
 import SolvroTalksQR from './img/solvro_talks_qr.png'
 import SolvroFBQR from './img/facebook_qr.png'
+import ScanningAppMobileLogin from './img/mobile_login.png';
+import ScanningAppMobileRents from './img/mobile_rents.png';
+import ScanningAppMobileReturn from './img/mobile_return_qr.png';
+import EbecLogin from './img/ebec_login.png';
+import EbecItems from './img/ebec_items.png';
 
 import ImageSlide from "./components/ImageSlide";
 
@@ -105,106 +110,10 @@ export const YoutubeSlide = (
     </Slide>
 );
 
-export const MathSlide = (
-    <Slide
-        progressColor="#83B4FC"
-    >
-        <Title>
-            Tytuł
-        </Title>
-        <Heading>
-            Nagłówek
-        </Heading>
-        <Text
-            textSize={24}
-            margin={20}
-        >
-            Dla matematycznych bestii też się coś znajdzie
-        </Text>
-        <Layout
-            style={{ justifyContent: 'space-around' }}
-        >
-            <Fit>
-                <Text
-                    textSize={18}
-                >
-                    Block
-                </Text>
-                <BlockMath>\int_0^\infty x^2 dx</BlockMath>
-            </Fit>
-            <Fit>
-                <Text
-                    textSize={18}
-                    margin={10}
-                >
-                    Inline
-                </Text>
-                <InlineMath>\int_0^\infty x^2 dx</InlineMath>
-            </Fit>
-        </Layout>
-    </Slide>
-);
-
-const data = [
-    { name: '2015', uv: 400, pv: 2400, amt: 2400 },
-    { name: '2016', uv: 300, pv: 2400, amt: 2400 },
-    { name: '2017', uv: 213.7, pv: 2400, amt: 2400 },
-    { name: '2018', uv: 69.69, pv: 2400, amt: 2400 },
-    { name: '2019', uv: 101, pv: 2400, amt: 2400 }
-];
-export const GraphSlide = (
-    <Slide
-        progressColor="#83B4FC"
-    >
-        <Title
-            margin={20}
-        >
-            Interaktywne wykresy
-        </Title>
-        <Layout
-            style={{ justifyContent: 'space-around' }}
-        >
-            <Fit>
-                <Text
-                    textSize={18}
-                >
-                    Np. Recharts
-                </Text>
-                <LineChart
-                    style={{ fontSize: '1em' }}
-                    width={800} height={400} data={data} margin={{ top: 50, right: 50, bottom: 50, left: 50 }}>
-                    <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                </LineChart>
-            </Fit>
-        </Layout>
-    </Slide>
-);
-
-export const PKPSlide = (
-    <CodeSlide
-        progressColor="#83B4FC"
-        bgColor={"white"}
-        transition={['fade']}
-        lang="js"
-        code={require('./assets/code.txt')}
-        showLineNumbers={false}
-        textSize={24}
-        ranges={[
-            { loc: [0, 12], title: "PKP kodzik" },
-            { loc: [0, 4], title: "Przygotowanko" },
-            { loc: [3, 4], note: "Lubimy regexy" },
-            { loc: [5, 8], note: "Jeżeli tak" },
-            { loc: [8, 12], note: "Jeżeli nie" },
-        ]}
-    />
-);
-
 export const TechnologiesSlide = (
-    <Slide>
+    <Slide
+        progressColor="#83B4FC"
+    >
         <Title>
             Używane technologie
         </Title>
@@ -266,8 +175,8 @@ export const TechnologiesSlide = (
     </Slide>
 );
 
-const NoInternetStoryArray = [SolvroTalksLogo, WilkoszRastrowyImg, HackathonImg];
-export const OtherActivitiesSlide = NoInternetStoryArray.map((img, idx) =>
+const OtherActivitiesArray = [SolvroTalksLogo, WilkoszRastrowyImg, HackathonImg];
+export const OtherActivitiesSlide = OtherActivitiesArray.map((img, idx) =>
     <ImageSlide
         progressColor="#83B4FC"
         title={"Inna działalność"}
@@ -298,7 +207,9 @@ export const SolvroTalkstSlide = (
 );
 
 export const SocialMediaSlide = (
-    <Slide>
+    <Slide
+        progressColor="#83B4FC"
+    >
         <Title
             margin={50}
         >
@@ -310,4 +221,67 @@ export const SocialMediaSlide = (
         />
         <Text>facebook.com/knsolvro/</Text>
     </Slide >
+);
+
+export const ScanningAppSlide = (
+    <Slide
+        progressColor="#83B4FC"
+    >
+        <Title>
+            Nasze projekty
+        </Title>
+        <Text>
+            Scanning app
+        </Text>
+        <Layout
+            style={{
+                marginTop: 20,
+                justifyContent: 'center'
+            }}
+        >
+            <Image
+                src={ScanningAppMobileReturn}
+                width={250}
+            />
+            <Image
+                src={ScanningAppMobileLogin}
+                width={250}
+            />
+            <Image
+                src={ScanningAppMobileRents}
+                width={250}
+            />
+        </Layout>
+    </Slide>
+);
+
+export const EbecSlide = (
+    <Slide
+        progressColor="#83B4FC"
+    >
+        <Title>
+            Nasze projekty
+        </Title>
+        <Text>
+            BEST app
+        </Text>
+        <Layout
+            style={{
+                marginTop: 20,
+                justifyContent: 'center'
+            }}
+        >
+            <Image
+                src={EbecLogin}
+                width={600}
+                style={{
+                    marginRight: 10
+                }}
+            />
+            <Image
+                src={EbecItems}
+                width={600}
+            />
+        </Layout>
+    </Slide>
 );
