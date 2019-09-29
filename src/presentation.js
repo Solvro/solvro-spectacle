@@ -21,6 +21,7 @@ import {
     TechnologiesSlide,
     TitleSlide,
     OtherActivitiesSlide,
+    SolvroTalkstSlide,
     SocialMediaSlide
 } from "./slides";
 
@@ -62,6 +63,7 @@ export default class Presentation extends React.Component {
                     {TitleSlide}
                     {TechnologiesSlide}
                     {OtherActivitiesSlide}
+                    {SolvroTalkstSlide}
                     {SocialMediaSlide}
                 </Deck>
             </>
