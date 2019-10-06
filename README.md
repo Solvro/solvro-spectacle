@@ -7,6 +7,10 @@ Można w slajdach używać wszystkiego co mamy w ReactJS - interaktywność peł
 
     `yarn start`
 
+    lub przez Dockerfile'a
+
+    `docker run -ti -p 3000:3000 --volume $PWD:/solvro_presentation --name=solvro_presentation_1 --rm solvro_presentation`
+
 2. Na ekranie wyświetlanym dla publiczności włączamy
 
     `localhost:3000`
