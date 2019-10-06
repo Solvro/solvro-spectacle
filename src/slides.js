@@ -24,6 +24,8 @@ import ScanningAppMobileRents from './img/mobile_rents.png';
 import ScanningAppMobileReturn from './img/mobile_return_qr.png';
 import EbecLogin from './img/ebec_login.png';
 import EbecItems from './img/ebec_items.png';
+import PapuaFirst from './img/papua_first.jpg';
+import PapuaSecond from './img/papua_second.JPG';
 
 import ImageSlide from "./components/ImageSlide";
 
@@ -268,7 +270,7 @@ export const EbecSlide = (
         <Layout
             style={{
                 marginTop: 20,
-                justifyContent: 'center'
+                justifyContent: 'center',
             }}
         >
             <Image
@@ -281,6 +283,41 @@ export const EbecSlide = (
             <Image
                 src={EbecItems}
                 width={600}
+            />
+        </Layout>
+    </Slide>
+);
+
+export const PapuaSlide = (
+    <Slide
+        progressColor="#83B4FC"
+    >
+        <Title>
+            Nasze projekty
+        </Title>
+        <Text>
+            Aplikacja dla Papui-Nowej Gwinei
+        </Text>
+        <Layout
+            style={{
+                marginTop: 20,
+                justifyContent: 'center',
+                alignItems: 'center'
+            }}
+        >
+            <Image
+                src={PapuaFirst}
+                height={380}
+                style={{
+                    marginRight: 10
+                }}
+            />
+            <Image
+                src={PapuaSecond}
+                height={380}
+                style={{
+                    transform: 'scaleX(-1)'
+                }}
             />
         </Layout>
     </Slide>
