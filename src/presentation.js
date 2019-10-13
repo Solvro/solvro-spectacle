@@ -24,7 +24,8 @@ import {
     SolvroTalkstSlide,
     SocialMediaSlide,
     ScanningAppSlide,
-    EbecSlide, PapuaSlide
+    EbecSlide, PapuaSlide,
+    MonterailSlide
 } from "./slides";
 
 // SVG
@@ -67,6 +68,7 @@ export default class Presentation extends React.Component {
                     {EbecSlide}
                     {ScanningAppSlide}
                     {PapuaSlide}
+		            {MonterailSlide}
                     {OtherActivitiesSlide}
                     {SolvroTalkstSlide}
                     {SocialMediaSlide}

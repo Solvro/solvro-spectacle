@@ -12,6 +12,7 @@ import NodeLogo from './img/logo_node.svg';
 import DjangoLogo from './img/logo_django.svg';
 import DockerLogo from './img/logo_docker.svg';
 import GitlabLogo from './img/logo_gitlab.svg';
+import MonterailLogo from './img/logo_monterail.svg';
 import ExpoLogo from './img/logo_expo.svg';
 import PostgresLogo from './img/logo_postgres.svg';
 import SolvroTalksLogo from './img/solvro_talks_logo.png';
@@ -321,4 +322,25 @@ export const PapuaSlide = (
             />
         </Layout>
     </Slide>
+);
+
+export const MonterailSlide = (
+	<Slide
+		progressColor="#83B4FC"
+	>
+		<Title>
+			Wykład w Monterail
+		</Title>
+		<Layout
+			style={{
+				marginTop: 20,
+				justifyContent: 'center'
+			}}
+		>
+			<Image
+				src={MonterailLogo}
+				height={380}
+			/>
+			</Layout>
+	</Slide>
 );
