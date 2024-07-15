@@ -1,6 +1,6 @@
 # Solvro Spectacle!
 
-![Screenshot 2024-06-27 at 16.47.00.png](..%2FScreenshot%202024-06-27%20at%2016.47.00.png)
+![Screenshot 2024-06-27 at 16.47.00.png](./assets/Screenshot%202024-06-27%20at%2016.47.00.png)
 
 Stworzone przy użyciu biblioteki `spectacles`!
 Templatka do tworzenia slajdów w React! 
@@ -34,9 +34,9 @@ Można w slajdach używać wszystkiego co mamy w ReactJS
 
 ## Pare przykłądów
 
-![Screenshot 2024-06-27 at 16.47.08.png](..%2FScreenshot%202024-06-27%20at%2016.47.08.png)
-![Screenshot 2024-06-27 at 16.47.22.png](..%2FScreenshot%202024-06-27%20at%2016.47.22.png)
-![Screenshot 2024-06-27 at 16.47.37.png](..%2FScreenshot%202024-06-27%20at%2016.47.37.png)
+![Screenshot 2024-06-27 at 16.47.08.png](./assets/Screenshot%202024-06-27%20at%2016.47.08.png)
+![Screenshot 2024-06-27 at 16.47.22.png](./assets/Screenshot%202024-06-27%20at%2016.47.22.png)
+![Screenshot 2024-06-27 at 16.47.37.png](./assets/Screenshot%202024-06-27%20at%2016.47.37.png)
 ## Autorzy
 Autorem projektu i jego deweloperem jest członek Solvro - Jan Librowski
 
