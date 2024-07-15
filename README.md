@@ -1,10 +1,11 @@
 # Solvro Spectacle!
 
 ![Screenshot 2024-06-27 at 16.47.00.png](./assets/Screenshot%202024-06-27%20at%2016.47.00.png)
-
-Stworzone przy użyciu biblioteki `spectacles`!
-Templatka do tworzenia slajdów w React! 
-Można w slajdach używać wszystkiego co mamy w ReactJS
+## O aplikacji
+Jest to templatka do tworzenia slajdów w React!
+Stworzony wrapper przy użyciu biblioteki `spectacles`. 
+Można w slajdach używać wszystkiego co mamy w ReactJS tj. embedded code, filmy, gify, itp.
+Ułatwia tworzenie prezentacji wykorzystując React.
 
 ## Jak włączyc aplikacje
 1. Odpalamy jak każdą nodeową apkę
